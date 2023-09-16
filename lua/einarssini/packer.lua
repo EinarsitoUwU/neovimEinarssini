@@ -1,6 +1,7 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
+	use 'lervag/vimtex'
 	use ('wbthomason/packer.nvim')
   	use({ 'rose-pine/neovim', as = 'rose-pine' })
 	use('ryanoasis/vim-devicons')
